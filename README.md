@@ -36,11 +36,3 @@ This iOS application demonstrates a simple pattern for managing a collection of 
 5. **Run the Project**
 
    Press `Cmd + R` to run the app on the selected device or simulator.
-
-## How It Works
-
-- **Collection View**: Displays a grid of images with one cell dedicated to the "Add Image" button.
-- **Custom Cell**: The `CustomCell` class contains an `UIImageView` and a UIButton configured to add images.
-- **Image Selection**: The "Add Image" button opens an action sheet allowing users to choose between the gallery or camera. Selected images are added to the collection view.
-- **Dynamic Layout**: After adding an image, the "Add Image" button cell moves to the end of the collection view. The layout is configured programmatically to handle this dynamic behavior.
-- **Custom Layout**: The collection view’s layout, including item size, spacing, and section insets, is set up programmatically, allowing for precise control over cell positioning and appearance.
